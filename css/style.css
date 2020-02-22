@@ -1,0 +1,108 @@
+/*:root {
+    font-size: 62.5%;
+}*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 92%;
+    margin: 0px auto;
+}
+
+/*page-header & navbar*/
+
+.page-header {
+    padding-top: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li {
+    font-size: 1.2rem;
+}
+
+.navbar ul li:last-child {
+
+    margin-right: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+    transition: 0.2s;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+}
+
+/*showcase*/
+
+.showcase-intro-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+.showcase-description {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn {
+    padding: 4px 23px;
+    background: #fff;
+}
+
+.showcase-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px;
+}
+
+/* home-articles*/
+
+.info-section {
+    display: flex;
+    border-top: 2px solid black;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/*mid-page*/
+.product-banner {
+    background: url("../img/mid-page-accent.jpg") no-repeat center/cover;
+    height: 200px;
+}
+
+/*bottom-articles*/
+
+.lower-articles .container {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+
+/*footer*/
+
+footer p.address {
+    padding: 10px 0px;
+}
+
+footer p.contact {
+    line-height: 25px;
+}
+
+footer p.copyright {
+    text-align: center;
+}
