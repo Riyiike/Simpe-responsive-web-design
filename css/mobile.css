@@ -1,0 +1,35 @@
+/*navbar*/
+.navbar ul {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar li {
+    border-bottom: 1px solid #555;
+}
+
+.navbar li:last-child {
+    border-bottom: none;
+}
+
+/*showcase*/
+.showcase-image-container {
+    visibility: hidden;
+}
+
+/*info section*/
+.info-section {
+    display: block;
+}
+
+/*lower articles*/
+
+.lower-articles .container {
+    display: block;
+}
